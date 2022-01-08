@@ -28,3 +28,17 @@ a:hover{
     color: plum;
     
 }
+
+footer{
+    bottom: 0;
+    position: absolute;
+    border-top: solid 1px palevioletred;
+    width: 100%;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;
+    color: crimson;
+    text-align: center;
+    font-size: 1.3rem;
+}
