@@ -3,6 +3,7 @@ html{
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 
 body{
@@ -51,10 +52,11 @@ section .first{
 
 .me-container{
     margin-top: 15px;
+    text-align: center;
+    min-width: 320px;
 }
 
 h2{
-    text-align: center;
     color: crimson;
     font-style: oblique;
 }
@@ -64,11 +66,49 @@ h2{
     margin: auto;
 }
 
+.yo p{
+    font-size: 1.5rem;
+    font-style: normal;
+    color: gray;
+}
+
+.repositorios{
+    border: 1px dotted purple;
+    margin-top: 15px;
+}
+
+.btn1{ 
+        background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8  51%, #757F9A  100%)
+}
+
+.btn1{
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;           
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+}
+
+.btn1:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+}
+
+.btn1 a{
+    color: white;
+}
+
 footer{
     bottom: 0;
-    position: fixed;
+    position: relative;
     border-top: solid 1px palevioletred;
     width: 100%;
+    min-width: 320px;
 }
 
 p{
