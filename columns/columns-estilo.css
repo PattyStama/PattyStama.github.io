@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    margin-top: 15%;
+    min-width: 320px;
+}
+
+article{
+    display: inline-block;
+    gap: 0;
+    width: 280px;
+    height: 400px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+img{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+}
+
+h2{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+p{
+    margin-bottom: 25px;
+    margin-left: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    width: 225px;
+}
+
+.sedan{
+    background-color: #e28525;
+    
+}
+
+.suvs{
+    background-color: #016972;
+    
+}
+
+.luxury{
+    background-color: #00403f;
+    
+}
+
+button{
+    border-radius: 15px;
+    width: 150px;
+    height: 40px;
+    justify-items: center;
+    align-items: center;
+    background-color:transparent;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    border: white 1px solid;
+}
